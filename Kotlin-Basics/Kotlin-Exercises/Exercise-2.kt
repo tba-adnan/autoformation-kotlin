@@ -9,7 +9,7 @@ fun main() {
                           réaliser par Adnane Tebbaa.           
 """.trimIndent())
     println("")
-    println("current list : $mylist")
+    println("[>] current list : $mylist")
     print("[+] select display, add, delete (di/ad/de) > ")
     val user = readln()
     if (user == "di") {
@@ -30,15 +30,15 @@ fun main() {
 
 
 fun display() {
-    println("current list : $mylist")
+    println("[>] current list : $mylist")
 }
 
 fun delete(input: String) {
     mylist.remove("$input")
-    println("current list: $mylist")
+    println("[>] current list: $mylist")
 }
 
 fun add(add: String) {
     mylist.add("$add")
-    println("current list : $mylist")
+    println("[>] current list : $mylist")
 }
