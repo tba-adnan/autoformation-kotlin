@@ -6,7 +6,7 @@ fun main() {
   _____ _____ _ _ __(_)___ ___  |_  )
  / -_) \ / -_) '_/ _| (_-</ -_)  / / 
  \___/_\_\___|_| \__|_/__/\___| /___|
-                          par Adnane Tebbaa.           
+                          réaliser par Adnane Tebbaa.           
 """.trimIndent())
     println("")
     print("select display, add, delete (di/ad/de) > ")
