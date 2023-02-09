@@ -1,17 +1,16 @@
 val mylist = arrayListOf<String>("demo0","demo1","demo2")
 
 fun main() {
-
     println("""
                                  ___ 
   _____ _____ _ _ __(_)___ ___  |_  )
  / -_) \ / -_) '_/ _| (_-</ -_)  / / 
  \___/_\_\___|_| \__|_/__/\___| /___|
-                          par adnane tebbaa.           
+                          réaliser par Adnane Tebbaa.           
 """.trimIndent())
     println("")
     print("select display, add, delete (di/ad/de) > ")
- val user = readln()
+    val user = readln()
     if (user == "di") {
         display()
     }

@@ -9,18 +9,19 @@ fun main() {
                           réaliser par Adnane Tebbaa.           
 """.trimIndent())
     println("")
-    print("select display, add, delete (di/ad/de) > ")
+    println("current list : $mylist")
+    print("[+] select display, add, delete (di/ad/de) > ")
     val user = readln()
     if (user == "di") {
         display()
     }
     if (user == "de") {
-        print("delete > ")
+        print("[-] delete > ")
         val de_element = readln()
         delete(de_element)
     }
     if (user == "ad") {
-        print("add element > ")
+        print("[+] add element > ")
         val ad_element = readln()
         add(ad_element)
     }
