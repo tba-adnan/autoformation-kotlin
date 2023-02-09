@@ -1,7 +1,7 @@
 fun main() {
     print("Enter n of lines : ")
     val rows = readln().toInt()
-    for (i in 1..rows) {
-        println(" ".repeat(rows - i) + "*".repeat(2 * i - 1))
+    for (star in 1..rows) {
+        println(" ".repeat(rows - star) + "*".repeat(2 * star - 1))
     }
 }
