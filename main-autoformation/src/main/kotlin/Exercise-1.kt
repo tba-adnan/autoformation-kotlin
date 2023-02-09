@@ -1,10 +1,7 @@
 fun main() {
-    print("Nombre des étoiles: ")
-    val rows = readLine()!!.toInt()
+    print("Enter n of lines : ")
+    val rows = readln().toInt()
     for (i in 1..rows) {
-        for (j in 1..i) {
-            print("*")
-        }
-        println()
+        println(" ".repeat(rows - i) + "*".repeat(2 * i - 1))
     }
 }
