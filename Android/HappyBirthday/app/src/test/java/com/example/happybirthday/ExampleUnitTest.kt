@@ -1,4 +1,4 @@
-package com.example.testdemo
+package com.example.happybirthday
 
 import org.junit.Test
 
