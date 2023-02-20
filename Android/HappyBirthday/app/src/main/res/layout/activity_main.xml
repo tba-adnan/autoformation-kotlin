@@ -23,6 +23,6 @@
         android:layout_height="309dp"
         app:srcCompat="@drawable/dice_1"
         tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteY="88dp" />
 
 </android.support.constraint.ConstraintLayout>
