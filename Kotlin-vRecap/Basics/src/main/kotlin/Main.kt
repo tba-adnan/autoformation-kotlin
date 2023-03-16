@@ -22,7 +22,7 @@ fun main() {
 fun demo() {
     var score: Int = 100
 
-    val list = listOf<String>("adnane", "demo_one", "demo_two")
+    val list = listOf<String>("adnane", "demo_one", "demo_two").also(::println)
     when (score) {
         0 -> print("you loose!")
         100 -> ("you win!")
