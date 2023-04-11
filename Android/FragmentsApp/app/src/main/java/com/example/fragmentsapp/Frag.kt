@@ -14,14 +14,10 @@ class Frag : Fragment() {
         return inflater.inflate(R.layout.demo, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceSt ate: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        // Access the TextView in the fragment's layout
         val textView = view.findViewById<TextView>(R.id.eltext)
-
-        // Set the text of the TextView
-        textView.text = "Hello from my fragment!"
+        textView.text = "This is a  fragment!"
     }
 
 
