@@ -1,3 +1,6 @@
-abstract class Abstract {
-    abstract fun absmain()
+abstract class Abstract(num: Int) {
+    open fun absmain(num:Int) {
+        println("$num * 2")
+    }
+
 }

@@ -1,10 +1,9 @@
-class ClassOne: Abstract() {
+class ClassOne: Abstract(2) {
     fun Name() {
         println("this is ClassOne")
     }
 
-    override fun absmain() {
-        println("overidden")
-
+     fun absmain() {
+       println("absmain")
     }
 }
