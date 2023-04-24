@@ -1,0 +1,1 @@
+data class ClassData (val name:String, val nickname:String )
